@@ -1,0 +1,100 @@
+What is the capital of France?,Berlin,Madrid,Paris,Rome,C
+Which planet is known as the Red Planet?,Earth,Mars,Jupiter,Saturn,B
+Who invented Python?,Guido van Rossum,Elon Musk,Steve Jobs,Bill Gates,A
+What is 5 + 7?,10,12,14,15,B
+Which gas do plants absorb during photosynthesis?,Oxygen,Carbon Dioxide,Nitrogen,Helium,B
+What is the largest mammal?,Elephant,Blue Whale,Giraffe,Hippopotamus,B
+Which country hosted the 2016 Olympics?,China,Brazil,UK,Russia,B
+Which is the smallest prime number?,0,1,2,3,C
+What is H2O commonly known as?,Hydrogen,Water,Oxygen,Acid,B
+Which continent is known as the "Dark Continent"?,Asia,Europe,Australia,Africa,D
+Who painted the Mona Lisa?,Vincent Van Gogh,Leonardo da Vinci,Pablo Picasso,Michelangelo,B
+Which is the national bird of India?,Crow,Eagle,Peacock,Sparrow,C
+Which is the longest river in the world?,Amazon,Nile,Ganga,Yangtze,B
+What is the hardest natural substance?,Diamond,Gold,Iron,Silver,A
+Which planet is closest to the Sun?,Venus,Mercury,Mars,Earth,B
+Which is the fastest land animal?,Tiger,Cheetah,Lion,Leopard,B
+Who was the first President of the USA?,Abraham Lincoln,George Washington,John Adams,Thomas Jefferson,B
+Which element has the chemical symbol 'O'?,Oxygen,Gold,Osmium,Silver,A
+What is the square root of 64?,6,7,8,9,C
+Which organ pumps blood in the human body?,Liver,Brain,Lungs,Heart,D
+What currency is used in Japan?,Yuan,Yen,Rupee,Dollar,B
+What is the boiling point of water at sea level?,50°C,90°C,100°C,120°C,C
+Which programming language is nicknamed the "language of the web"?,Python,C++,JavaScript,Java,C
+Which device is used to measure temperature?,Barometer,Thermometer,Hygrometer,Altimeter,B
+Which year did World War II end?,1942,1945,1948,1950,B
+Which is the largest desert in the world?,Sahara,Gobi,Kalahari,Thar,A
+Which country has the most population?,USA,India,China,Russia,C
+Which ocean is the largest?,Indian,Pacific,Atlantic,Arctic,B
+Which country has the city "Cairo"?,Turkey,Saudi Arabia,Egypt,UAE,C
+Which is the smallest country in the world?,Monaco,Vatican City,Maldives,San Marino,B
+Who was the first man on the Moon?,Yuri Gagarin,Buzz Aldrin,Neil Armstrong,Michael Collins,C
+Which year did India gain independence?,1945,1947,1950,1952,B
+Who was the first Emperor of the Mughal dynasty?,Akbar,Babur,Shah Jahan,Aurangzeb,B
+Where did the Industrial Revolution begin?,USA,Germany,UK,France,C
+Who was known as the Iron Lady?,Margaret Thatcher,Indira Gandhi,Queen Victoria,Hillary Clinton,A
+What does CPU stand for?,Central Processing Unit,Central Power Unit,Computer Processing Unit,Control Processing Unit,A
+Which company developed Windows OS?,Google,Apple,Microsoft,IBM,C
+Which programming language is known as "mother of all languages"?,C,Java,Assembly,Python,A
+What does RAM stand for?,Random Active Memory,Read Access Memory,Random Access Memory,Run All Memory,C
+Which device is output only?,Keyboard,Mouse,Printer,Scanner,C
+Which organ in humans is called the "control center"?,Heart,Brain,Liver,Kidney,B
+What vitamin is produced when skin is exposed to sunlight?,Vitamin A,Vitamin B,Vitamin C,Vitamin D,D
+What is the chemical formula of salt?,H2O,NaCl,KCl,CO2,B
+Which blood cells help fight infection?,Red Blood Cells,White Blood Cells,Platelets,Plasma,B
+Which is the nearest planet to Earth?,Venus,Mars,Jupiter,Saturn,A
+Which is the tallest mountain in the world?,Mount Kilimanjaro,Mount Everest,K2,Mount Fuji,B
+Who discovered gravity?,Albert Einstein,Isaac Newton,Galileo,Charles Darwin,B
+Which country is called the Land of the Rising Sun?,India,China,Japan,Korea,C
+What is the national sport of Canada?,Ice Hockey,Football,Cricket,Tennis,A
+What is the chemical symbol of Gold?,Ag,Au,Gd,Go,B
+Which sport uses the term "love"?,Football,Cricket,Tennis,Hockey,C
+How many players are on a football (soccer) team?,9,10,11,12,C
+Which country won the FIFA World Cup 2018?,Brazil,Germany,France,Argentina,C
+Who is known as the "God of Cricket"?,Ricky Ponting,Sachin Tendulkar,MS Dhoni,Virat Kohli,B
+Olympics are held every how many years?,2,3,4,5,C
+Which board game has kings, queens, and pawns?,Ludo,Carrom,Chess,Monopoly,C
+What is the currency of USA?,Dollar,Pound,Euro,Yen,A
+What is the national animal of China?,Lion,Panda,Tiger,Dragon,B
+Which language has the most native speakers?,English,Mandarin,Spanish,Hindi,B
+What is the tallest building in the world (2025)?,Shanghai Tower,Burj Khalifa,One WTC,Petronas Tower,B
+Which of these is not a programming language?,Python,Java,HTML,Ruby,C
+Which company developed iPhone?,Google,Microsoft,Apple,Samsung,C
+What does URL stand for?,Uniform Resource Locator,Universal Record Locator,Uniform Reference Link,Unified Resource Link,A
+Which is the brain of the computer?,RAM,CPU,ROM,HDD,B
+Which company owns YouTube?,Microsoft,Apple,Meta,Google,D
+Which is the first search engine?,Google,Altavista,Archie,Yahoo,C
+In binary system, what are the two digits?,0 and 2,1 and 2,0 and 1,1 and 3,C
+Which key is used to refresh a webpage?,F2,F5,F11,F12,B
+What is the shortcut for copy?,Ctrl+X,Ctrl+C,Ctrl+V,Ctrl+Z,B
+Which social media app is owned by Meta?,Snapchat,Twitter,Instagram,Reddit,C
+Who was the first Prime Minister of India?,Sardar Patel,Mahatma Gandhi,Jawaharlal Nehru,Indira Gandhi,C
+Who discovered America?,Columbus,Magellan,Vasco da Gama,Cook,A
+When did World War I begin?,1912,1914,1916,1918,B
+Which empire built the Colosseum?,Greek,Roman,Byzantine,Ottoman,B
+Who was the last Mughal Emperor?,Babur,Akbar,Shah Alam II,Bahadur Shah Zafar,D
+Who was the first woman to fly solo across the Atlantic?,Valentina Tereshkova,Amelia Earhart,Kalpana Chawla,Sally Ride,B
+Which ancient civilization built pyramids?,Mesopotamian,Greek,Egyptian,Indus Valley,C
+Who was the first female Prime Minister of the UK?,Indira Gandhi,Angela Merkel,Margaret Thatcher,Theresa May,C
+The Great Fire of London occurred in which year?,1666,1766,1866,1966,A
+Who was the founder of the Maurya Empire?,Ashoka,Chandragupta Maurya,Bimbisara,Bindusara,B
+Which is the largest country by area?,China,USA,Canada,Russia,D
+Which is the smallest continent?,Europe,Australia,Antarctica,South America,B
+Which city is known as "Big Apple"?,Los Angeles,New York,Chicago,San Francisco,B
+Mount Fuji is located in which country?,China,Japan,Korea,Thailand,B
+Which is the longest wall in the world?,Berlin Wall,Great Wall of China,Hadrian’s Wall,Iron Curtain,B
+Which river flows through Egypt?,Ganga,Amazon,Nile,Yangtze,C
+Which is the hottest continent?,Africa,Asia,Australia,South America,A
+Which country has the city "Sydney"?,New Zealand,Australia,UK,USA,B
+Which continent is the Sahara Desert in?,Africa,Asia,Australia,Europe,A
+Which country gifted the Statue of Liberty to the USA?,UK,France,Germany,Italy,B
+What is the largest planet in our solar system?,Earth,Saturn,Jupiter,Neptune,C
+Which blood type is known as the universal donor?,O-,O+,AB+,AB-,A
+What part of the plant conducts photosynthesis?,Stem,Leaf,Root,Flower,B
+How many bones are in the adult human body?,200,206,210,215,B
+Which part of the cell contains DNA?,Nucleus,Ribosome,Cytoplasm,Cell Wall,A
+What is the pH value of pure water?,5,6,7,8,C
+Which organ purifies blood in the human body?,Liver,Heart,Kidney,Lungs,C
+Which is the fastest bird?,Sparrow,Eagle,Peregrine Falcon,Parrot,C
+What is the main gas in Earth’s atmosphere?,Oxygen,Nitrogen,Carbon Dioxide,Helium,B
+Which vitamin helps in blood clotting?,Vitamin A,Vitamin C,Vitamin K,Vitamin D,C
