@@ -11,6 +11,7 @@ from rich.text import Text
 
 console = Console()
 
+# Displaying the dashboard panel
 def print_dashboard(user):
     header_text = Text.from_markup(
         f"[bold magenta]D A S H B O A R D[/bold magenta]\nLogged in as [cyan]{user.username}[/cyan]",
@@ -37,6 +38,7 @@ def print_dashboard(user):
         title="📌 Options"
     ))
 
+# Main dashboard function to handle user choices
 def dashboard(user):
     print_dashboard(user)
 

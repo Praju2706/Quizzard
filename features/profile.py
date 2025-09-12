@@ -10,6 +10,7 @@ console = Console()
 SCORES_FILE = os.path.join("quiz_data", "scores.txt")
 ACH_FILE = os.path.join("quiz_data", "achievements.txt")
 
+# Viewing user profile and statistics
 def view_profile(username):
     scores = [(u, s, t, d) for (u, s, t, d) in load_scores(SCORES_FILE) if u == username]
     achievements = load_achievements(ACH_FILE)
@@ -19,6 +20,7 @@ def view_profile(username):
         console.input("\n👉 [cyan]Press ENTER to return to dashboard...[/cyan]")
         return
 
+    # Calculating stats
     quizzes_played = len(scores)
     total_score = sum(s for (_, s, _, _) in scores)
     total_time = sum(t for (_, _, t, _) in scores)
@@ -30,6 +32,7 @@ def view_profile(username):
     leaderboard_sorted = sorted(leaderboard, key=lambda x: (-x[1], x[2]))
     rank = next((i+1 for i, (u, _, _, _) in enumerate(leaderboard_sorted) if u == username), "-")
 
+    # Special icons for top 3 ranks
     if rank == 1:
         rank_display = "🥇 1 (Gold)"
     elif rank == 2:
@@ -47,6 +50,7 @@ def view_profile(username):
         width=55
     ))
 
+    # Stats Section
     stats_table = Table(show_header= False,style="magenta", header_style="bold cyan", width= 55)
 
     stats_table.add_row("Quizzes Played", str(quizzes_played))
@@ -56,6 +60,7 @@ def view_profile(username):
 
     console.print(stats_table)
 
+    # Achievements Section
     if achievements.get(username):
         ach_text = "\n".join([f"🏅 [green]{b}[/green]" for b in achievements[username]])
     else:

@@ -9,6 +9,7 @@ from utils.helpers import load_scores
 console = Console()
 SCORES_FILE = os.path.join("quiz_data", "scores.txt")
 
+# Displaying the leaderboard
 def leaderboard():
     scores = load_scores(SCORES_FILE)
     if not scores:

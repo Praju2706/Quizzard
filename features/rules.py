@@ -4,6 +4,7 @@ from rich.table import Table
 from rich.align import Align
 console = Console()
 
+# Displaying the quiz rules
 def show_rules():
     console.print("\n")
     console.print(Panel(Align.center("[bold magenta] Q U I Z   R U L E S [/bold magenta]", vertical="middle"), border_style="bright_blue", width=55))

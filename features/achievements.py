@@ -4,6 +4,7 @@ from utils.helpers import load_scores, save_achievements, load_achievements
 SCORES_FILE = os.path.join("quiz_data", "scores.txt")
 ACH_FILE = os.path.join("quiz_data", "achievements.txt")
 
+# Check and unlock achievements based on user's performance
 def check_achievements(username, latest_score):
     achievements = load_achievements(ACH_FILE)
     unlocked = []

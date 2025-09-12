@@ -11,6 +11,7 @@ console = Console()
 QUESTIONS_FILE = os.path.join("quiz_data", "questions.txt")
 SCORES_FILE = os.path.join("quiz_data", "scores.txt")
 
+# Starting the quiz for a user
 def start_quiz(user):
     questions = load_questions(QUESTIONS_FILE)
     if not questions:
@@ -18,6 +19,7 @@ def start_quiz(user):
         console.input("\n👉 [cyan]Press ENTER to return to dashboard...[/cyan]")
         return
 
+    # Randomly select 10 questions or all if less than 10
     random.shuffle(questions)
     selected = questions[:10] if len(questions) >= 10 else questions
 
@@ -26,6 +28,7 @@ def start_quiz(user):
     score = 0
     total_time = 0
 
+    # Loop through selected random questions
     for idx, q in enumerate(selected, start=1):
         show_question(q, idx, len(selected))
 
@@ -33,12 +36,12 @@ def start_quiz(user):
         ans = None
 
         try:
-            user_input = inputimeout(prompt=f"👉 Your answer (A/B/C/D): ", timeout=10).strip().upper()
+            user_input = inputimeout(prompt=f"👉 Your answer (A/B/C/D): ", timeout=10).strip().upper() # User input with timer
             if user_input in {"A", "B", "C", "D"}:
                 ans = user_input
             else:
                 ans = None
-        except TimeoutOccurred:
+        except TimeoutOccurred: # Time's up
             ans = "timeout"
 
         q_time = int(time.time() - start_time)
@@ -52,6 +55,7 @@ def start_quiz(user):
         else:
             show_feedback(False)
 
+    # Quiz finished, show summary
     console.print(Panel(Align.center("[bold magenta] Q U I Z   F I N I S H E D [/bold magenta]", vertical="middle"),
         border_style="bright_blue",
         width=55
@@ -60,6 +64,7 @@ def start_quiz(user):
 
     save_score(SCORES_FILE, user.username, score, total_time)
 
+    # Check for achievements
     unlocked = check_achievements(user.username, score)
     if unlocked:
         print("\n🏅 New Achievements Unlocked:")
@@ -68,6 +73,7 @@ def start_quiz(user):
 
     console.input("\n👉 [cyan]Press ENTER to return to dashboard...[/cyan]")
 
+# Loading questions from file
 def load_questions(filepath):
     if not os.path.exists(filepath):
         return []

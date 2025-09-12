@@ -8,6 +8,7 @@ from rich.align import Align
 console = Console()
 CREDENTIALS_FILE = os.path.join("quiz_data", "credentials.txt")
 
+# Asking user to login or register
 def login_or_register():
     while True:
         print("\n")
@@ -33,6 +34,7 @@ def login_or_register():
         else:
             console.print("⚠️ [red] Invalid choice! Please enter 1 or 2.[/red]")
 
+# Registering a new user
 def register_user():
     creds = load_credentials(CREDENTIALS_FILE)
     while True:
@@ -56,6 +58,7 @@ def register_user():
     console.print(f"[cyan]=[/cyan]" * 55)
     return User(username, password)
 
+# Logging in an existing user
 def login_user():
     creds = load_credentials(CREDENTIALS_FILE)
     while True:

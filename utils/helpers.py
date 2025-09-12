@@ -11,6 +11,7 @@ console = Console()
 
 init(autoreset=True)  
 
+# Welcome screen
 def welcome_screen():
     print(Fore.CYAN + "=" * 55)
     ascii_banner = pyfiglet.figlet_format("QUIZZARD")
@@ -19,6 +20,7 @@ def welcome_screen():
     print(Fore.CYAN + "=" * 55 + Style.RESET_ALL)
     input(Fore.GREEN + "\n👉 Press Enter to Login..." + Style.RESET_ALL)
 
+# Logout screen
 def logout_screen():
     print("\n")
     console.print(
@@ -30,6 +32,8 @@ def logout_screen():
             width=55
         )
     )
+
+# Loding and saving user credentials
 
 def load_credentials(filepath):
     creds = {}
@@ -48,6 +52,7 @@ def save_credentials(filepath, username, password):
     with open(filepath, "a") as f:
         f.write(f"{username},{password}\n")
 
+# Secure password input
 def input_password(prompt="Enter password : "):
     console.print(f"[cyan]{prompt}[/cyan]", end="", style="cyan", highlight=False, soft_wrap=True)
     password = ""
@@ -95,6 +100,8 @@ def input_password(prompt="Enter password : "):
 
     return password
 
+# Loading and saving scores and achievements
+
 def save_score(filepath, username, score, time_taken):
     with open(filepath, "a", encoding="utf-8") as f:
         f.write(f"{username},{score},{time_taken},{datetime.now().strftime('%Y-%m-%d %H:%M')}\n")
@@ -127,6 +134,8 @@ def save_achievements(filepath, achievements):
     with open(filepath, "w", encoding="utf-8") as f:
         for username, badges in achievements.items():
             f.write(f"{username},{'|'.join(badges)}\n")
+
+# Displaying questions, feedback, and summary
 
 def show_question(q, idx, total):
     console.rule(f"[bold cyan] Question {idx}/{total}")

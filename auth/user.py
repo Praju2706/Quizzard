@@ -1,3 +1,4 @@
+# usser class to represent a user
 class User:
     def __init__(self, username, password,score=0):
         self.username = username

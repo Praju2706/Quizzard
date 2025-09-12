@@ -9,16 +9,19 @@ console = Console()
 
 SCORES_FILE = os.path.join("quiz_data", "scores.txt")
 
+# Viewing user's score history
 def view_scores(user):
     scores = load_scores(SCORES_FILE)
 
+    # Filter scores for the logged-in user
     user_scores = [(s, t, d) for (u, s, t, d) in scores if u == user.username]
 
     if not user_scores:
         console.print("\n⚠️ No scores found for your account.\n", style="yellow")
         console.input("\n👉 [cyan]Press ENTER to return to dashboard...[/cyan]")
         return
-
+    
+    # Display score history in a table
     print("\n")
     console.print(Panel(Align.center("[bold magenta] S C O R E   H I S T O R Y [/bold magenta]", vertical="middle"),
         border_style="bright_blue",
@@ -28,7 +31,7 @@ def view_scores(user):
     table.add_column("Score", style="green", justify="center")
     table.add_column("Time Taken (s)", style="magenta", justify="center")
     table.add_column("Date", style="yellow", justify="center")
-
+    
     for s, t, d in user_scores:
         table.add_row(str(s), str(t), d)
     
