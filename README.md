@@ -32,6 +32,9 @@ The app is lightweight, fully text-based, and built for both fun and learning.
 ### Profile  
 ![Profile](utils/Preview/profile.png)  
 
+### Quiz Rules  
+![Rules](utils/Preview/rules.png)  
+
 ---
 
 ## 🚀 How to Run  
@@ -113,3 +116,4 @@ Developed with ❤️ by **Shakti Suraj** (@0xroot-suraj)
 ## 🤝 Contribution
 Contributions, suggestions, and feedback are welcome!
 Open an issue or submit a pull request to help improve **Quizzard**.
+
