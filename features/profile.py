@@ -45,7 +45,7 @@ def view_profile(username):
     print("\n")
     console.print(Panel(Align.left(
         f"👤 [bold cyan]{username}[/bold cyan]\n🏆 Rank: [bold magenta]{rank_display}[/bold magenta]", vertical= "middle"),
-        title="P L A Y E R   P R O F I L E",
+        title="[bold] P L A Y E R   P R O F I L E [/bold]",
         border_style="bright_blue",
         width=55
     ))

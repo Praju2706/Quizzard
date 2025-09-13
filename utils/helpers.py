@@ -27,7 +27,7 @@ def logout_screen():
         Panel(
             Align.center("✨ [cyan]See you soon, wizard![/cyan] ✨", vertical="middle"),
             border_style="bright_red",
-            title="L O G G E D   O U T",
+            title="[bold]L O G G E D   O U T[/bold]",
             title_align="center",
             width=55
         )
