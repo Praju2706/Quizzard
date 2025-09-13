@@ -23,4 +23,4 @@ def show_rules():
         width=55,
         border_style="bright_magenta"
     ))
-    console.input("\n👉 [cyan]Press M to return to menu...[/cyan]")
+    console.input("\n👉 [cyan]Press ENTER to return to dashboard...[/cyan]")
